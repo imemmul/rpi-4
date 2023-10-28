@@ -1,4 +1,4 @@
-# This repo is main host server built on a Raspberry Pi 4.
+# This repo is main home server built on a Raspberry Pi 4.
 # functionalities and some todos:
     # wake-on-lan on ethernet connected machines (my gpu-machine) -> Done
     # voice control
@@ -6,3 +6,4 @@
     # build more cool readme
     # interconnected smart devices like android tv (mibox) lights (philips hue, yeelight etc)
     # nas server connection with ftp to transfer files between LAN faster, (more useful for non-Apple devices, see Airdrop)
+    # an mobile app (iphone, apple watch) control the server (seeing running pid and consumtion from mobile etc. if possible ???)
