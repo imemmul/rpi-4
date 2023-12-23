@@ -41,7 +41,7 @@ def main():
         if device_is_online(target_device_ip) or sent_ping:
             while not connected:
                 try:
-                    ssh_connect("/home/emir_rpi4/dev/rpi-4/wakeonlan/machine.sh")
+                    ssh_connect(bash_script_path)
                     connected = True
                 except Exception as e:
                     print(f"problem in ssh: {e}")
